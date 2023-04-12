@@ -1,0 +1,18 @@
+.task-card {
+    position: relative;
+    padding: 20px;
+    border: 1px solid #000000;
+}
+
+.task-card_dark {
+    color: #FFFFFF;
+    background-color: darkslategrey;
+}
+
+.task-card__delete-button {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    border: none;
+    background: none;
+}

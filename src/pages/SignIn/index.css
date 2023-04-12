@@ -1,0 +1,10 @@
+.sign-in {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.sign-in_error {
+    border: 1px solid red;
+}

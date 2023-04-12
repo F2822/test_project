@@ -1,0 +1,22 @@
+.task-table {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    border: 1px solid #000000;
+}
+
+.task-table__column:not(:last-child) {
+    border-right: 1px solid #000000;
+}
+
+.task-table__column-header {
+    margin: 0;
+    text-align: center;
+    border-bottom: 1px solid #000000;
+}
+
+.task-table__column-items {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    gap: 10px;
+}
